@@ -1,0 +1,234 @@
+* {
+    margin: 0%;
+    padding: 0px;
+    box-sizing: border-box;
+
+
+
+
+}
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;500&display=swap');
+</style>
+
+
+
+
+.header {
+    font-size: 1.5rem;
+    text-align: center;
+    color: blue;
+}
+
+
+
+h1 
+{
+    color: #673AB7;
+    
+    
+    }
+#textoMorado{
+
+    color: #512DA8;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+   }
+h2{
+    color:mediumslateblue;
+    font-weight: 500;
+    text-align: center;
+    
+     
+}
+
+
+nav ul a{
+    color: blue;
+    font-weight: 200;
+    margin: 10px;
+   
+    
+           
+}
+nav ul a:hover{
+color: rgb(100, 221, 237);
+}
+.textoAzul{
+    text-align: center;
+    list-style-type: none;
+   
+ 
+   
+   
+    
+  
+}
+.fotofatayserviciocatering{
+    background-image:url(../assets/fatay\ abierto.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 100vh;
+
+}
+
+
+.textoMain{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    text-align: center;
+    overflow: hidden;
+    margin: 30px 30px 30px 30px;
+    border-width: 10px;
+    
+    
+    }
+div {
+    padding: 0px
+    margin: 30px 5px 5px 15px;
+    overflow: hidden;
+      
+}
+
+.textoFooter{
+    color: #757575;
+    font-weight: 300;
+    text-align: center;
+    
+    }
+    .portada{
+        background-image:url(../assets/Inicio.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh;
+        display: inline-block;
+        margin: auto;
+        
+              
+
+        
+    }
+    .flexboxmercado{
+        width: 200vh;
+        height: 1000px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 2%;
+        background-color: honeydew;
+        margin: 30px 30px 30px 30px;
+              
+       
+
+    }
+    
+    .tarjetasmercado{
+        width: 200%;
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 5px;
+        background-color: beige;
+        border-radius: 20px;
+        border: #512DA8;
+        object-fit: cover;
+        text-align: center;
+        
+        
+         
+       
+       
+       
+    }
+    
+    img{
+        width: 100%;
+        object-fit: cover;
+        
+    }
+    .formulario{
+        width: 50%;
+        justify-content: center;
+        margin: auto;
+        padding: 10px;
+        
+        
+    }
+.gradiente{
+    background-image: linear-gradient(to right top, #f2f3cc, #f1f3c4, #f1f3bb, #f0f4b3, #eff4aa, #f2f3aa, #f4f1ab, #f7f0ab, #fbedb6, #fcebc2, #faeace, #f5e9da);
+}
+
+.iconosredes{
+    color: #536DFE;
+    font-size: 3rem;
+    margin: 3rem;
+    padding: 2%;
+}
+
+.fotomenuarabe{
+    margin: 2rem;
+    padding: 1rem;
+    border-color: #757575;
+    width: 50px;
+    height: 50px;
+
+}
+.sobrenosotros{
+    padding: 2rem;
+    border-style: none;
+}
+.quehacemos{
+    padding: 2rem;
+    
+}
+
+@media (max-width:767px){
+
+    #textoMorado{
+
+        
+        
+        font-size: 1.5rem;
+        text-align: center;
+       }
+    .slogan{
+        font-size: 1rem;
+
+    }
+
+    .textoAzul{
+        
+        column-rule-style: none;
+        
+       
+     
+       
+       
+        
+      
+    }
+
+      
+    
+    }
+
+}
+   
+        
+   
+
+    
+        
+        
+   
+    
+
+
